@@ -19,4 +19,8 @@ public class MainActivity extends Activity {
 	public void say2(){
 		System.out.println("aaaa");
 	}
+	
+	public void say4(){
+		System.out.println("hahadaxiao");
+	}
 }
