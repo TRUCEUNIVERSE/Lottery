@@ -27,4 +27,8 @@ public class MainActivity extends Activity {
 	public void say4(){
 		System.out.println("hahadaxiao");
 	}
+	
+	public void sayworkspace2(){
+		System.out.println("i am workspace2");
+	}
 }
