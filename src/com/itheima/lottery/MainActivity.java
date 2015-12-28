@@ -20,6 +20,10 @@ public class MainActivity extends Activity {
 		System.out.println("aaaa");
 	}
 	
+	public void say3(){
+		System.out.println("hahadaixao");
+	}
+
 	public void say4(){
 		System.out.println("hahadaxiao");
 	}
