@@ -31,4 +31,8 @@ public class MainActivity extends Activity {
 	public void sayworkspace2(){
 		System.out.println("i am workspace2");
 	}
+	
+	public void createANewBranch(){
+		System.out.println("1 create a new Branch");
+	}
 }
