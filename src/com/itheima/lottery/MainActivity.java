@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
 	}
 	
 	public void createANewBranch(){
-		System.out.println("1 create a new Branch  hehehe");
+		System.out.println("1 create a new Branch  hehehe ---master");
+		System.out.println("1 create a new Branch   hahaha ---feature1");
 	}
 }
