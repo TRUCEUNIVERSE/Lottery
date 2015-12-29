@@ -35,11 +35,21 @@ public class Leaf {
 		this.tagValue = tagValue;
 	}
 	
+	public Leaf(String tagName) {
+		super();
+		this.tagName = tagName;
+	}
+
+	public Leaf(String tagName, String tagValue) {
+		super();
+		this.tagName = tagName;
+		this.tagValue = tagValue;
+	}
+
 	/**
 	 * 序列化节点
 	 */
 	public void serializerLeaf(XmlSerializer serializer){
-		
 		try {
 			serializer.startTag(null, tagName);
 			serializer.text(tagValue);
